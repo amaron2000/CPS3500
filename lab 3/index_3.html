@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap 4 Fluid Layout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: pink">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Nick's page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Test Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index_2.html">Test Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Some work
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://obi2.kean.edu/~amaron@kean.edu/CPS3500/SelfEmail.php">Self Email</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://obi2.kean.edu/~amaron@kean.edu/CPS3500/MyPage.html">Test page</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://obi2.kean.edu/~amaron@kean.edu/CPS3500/myhtml.html">myhtml</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>Responsiveness does matter in Web Design a lot</h1>
+            <p class="lead">Always use Bootstrap and its features.</p>
+            <p><a href="https://getbootstrap.com/" target="_blank"
+                    class="btn btn-success btn-lg">Start here</a></p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Navigation bar is a good starting point</h2>
+                <p>Navbars come with built-in support for a handful of sub-components. Choose from the following as
+                    needed:</p>
+                <ul>
+                    <li>navbar-brand for your company, product, or project name.</li>
+                    <li>navbar-nav for a full-height and lightweight navigation (including support for dropdowns).</li>
+                    <li>navbar-toggler for use with our collapse plugin and other navigation toggling behaviors.</li>
+                    <li>Flex and spacing utilities for any form controls and actions.</li>
+                    <li>navbar-text for adding vertically centered strings of text.</li>
+                    <li>collapse.navbar-collapse for grouping and hiding navbar contents by a parent breakpoint.</li>
+                    <li>Add an optional .navbar-scroll to set a max-height and scroll expanded navbar content.</li>
+                </ul>
+                <p><a href="https://getbootstrap.com/docs/5.0/components/navbar/" class="btn btn-success">Read
+                        More �</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Fluid container will help a lot, and the Carousel is just fun!</h2>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide pointer-event" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                            class="active" aria-label="Slide 1" aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2" class=""></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3" class=""></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="../Java2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p><!--Some representative placeholder content for the first slide.--></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../Java.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p><!--Some representative placeholder content for the second slide.--></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Java2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p><!--Some representative placeholder content for the third slide.--></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">

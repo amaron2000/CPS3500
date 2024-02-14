@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>A simple HTML5 table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        caption {
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            margin: 10px;
+            padding: 5px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Table of Fruits (1st column), Their Prices (2nd column), and Their Shelf Life (3rd column)</caption>
+        <thead>
+            <tr>
+                <th>Fruit</th>
+                <th>Price</th>
+                <th>Shelf Life</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>$3.75</th>
+                <th></th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>$0.25</td>
+                <td>3 weeks</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>$0.50</td>
+                <td>10 days</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>$1.00</td>
+                <td>2 to 5 days</td>
+            </tr>
+            <tr>
+                <td>Pineapple</td>
+                <td>$2.00</td>
+                <td>3 days</td>
+            </tr>
+            <tr>
+                <td>Mango</td>
+                <td>$0.84</td>
+                <td>14 days</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>
